@@ -13,7 +13,7 @@ local player = game.Players.LocalPlayer
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
-    Title = "Arsenal Detected!";
+    Title = "Blox Fruits Detected!";
     Text = "We Hope You Enjoy WetHub " .. player.Name;
     Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
     Duration = 25;
