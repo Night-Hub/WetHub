@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 print("")
 print("=============================================")
 print("")
-warn("DBZ:FS Detected!")
+warn("Blox Fruits Detected!")
 wait()
 warn("Loading Notifications!")
 print("")
