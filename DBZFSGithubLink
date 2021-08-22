@@ -1,4 +1,4 @@
-local Player = Players.LocalPlayer
+local Player = game.Players.LocalPlayer
 print("")
 print("=============================================")
 print("")
