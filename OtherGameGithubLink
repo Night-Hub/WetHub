@@ -1,3 +1,4 @@
+abc = true
 warn("-------------")
 if abc then 
 print("ABC!")
