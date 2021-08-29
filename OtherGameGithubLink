@@ -1,3 +1,9 @@
 local Test123 = false
 wait()
 Test123 = true
+
+
+wait(10)
+if game.CoreGui.MainLoader then
+print("YE YE")
+end
