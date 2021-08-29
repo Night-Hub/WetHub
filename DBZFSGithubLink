@@ -1,4 +1,6 @@
-local Test123  = false
+if Test123 then
+print("No Loadstring")
+end
 
 local player = game.Players.LocalPlayer
 print("")
