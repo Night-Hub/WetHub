@@ -1,4 +1,6 @@
 warn("-------------")
 if abc then 
 print("ABC!")
+else
+print("")
 end
