@@ -1,4 +1,4 @@
-MainLoaderHasBeenDetectedNowItsTimeForEncryption1204987572398673826983467 = true
+Test123  = true
 
 local player = game.Players.LocalPlayer
 print("")
