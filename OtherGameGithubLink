@@ -1,6 +1,3 @@
-print("Loadstring Detected!")
-if Test123 then
-  warn("")
-  warn("Test123 Detected!")
-  warn("")
-end
+local Test123 = false
+wait()
+Test123 = true
