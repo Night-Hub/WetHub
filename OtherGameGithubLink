@@ -1,3 +1,4 @@
+print("Loadstring Detected!")
 if Test123 then
   warn("")
   warn("Test123 Detected!")
