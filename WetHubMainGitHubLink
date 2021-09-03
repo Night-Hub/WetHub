@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------------------------ Making Sure WetHub Has Not Already Been Executed
+for i,v in pairs(game.CoreGui:GetDescendants()) do
+	if v.Name == "WetHub" then
+		warn("You've Already Executed WetHub!")
+		game.Players.LocalPlayers.Character.HumanoidRootPart.WalkSpeed = CFrame.new(20, 20, 20)
+    end
+end
+------------------------------------------------------------------------------------------------------------ Main Loadstrings For WetHub
+if game.PlaceId == 536102540 then -- One -- DBZ:FS 
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWetHub/WetHub/main/DBZFSGithubLink"))()
+	elseif game.PlaceId == 286090429 then -- Two -- Arsenal
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWetHub/WetHub/main/ArsenalGitHubLink"))()
+	elseif game.PlaceId == 2753915549 then -- Three -- Blox Fruits
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWetHub/WetHub/main/BloxFruitsGithubLink"))()
+	elseif game.PlaceId == 537413528 then -- Four -- Build A Boat For Treasure
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWetHub/WetHub/main/BuildABoatForTreasureGithubLink"))()
+	elseif game.PlaceId == 4972091010 then -- Five -- Zombie Uprising
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheWetHub/WetHub/main/ZombieUprisingGithubLink"))()
+	end
+  ------------------------------------------------------------------------------------------------------------
