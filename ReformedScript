@@ -2,6 +2,8 @@ local Notification = true
 
 loadstring(game:HttpGet("https://github.com/TheWetHub/WetHub/blob/main/Reformed"))()
 
+wait(2)
+
 if Notification then
 local thing = loadfile("WetHubNotificationsBool.txt")()
 else
