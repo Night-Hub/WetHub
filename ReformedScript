@@ -1,0 +1,9 @@
+local Notification = true
+
+loadstring(game:HttpGet("https://github.com/TheWetHub/WetHub/blob/main/Reformed"))()
+
+if Notification then
+local thing = loadfile("WetHubNotificationsBool.txt")()
+else
+print("Notifications Disabled!")
+end
